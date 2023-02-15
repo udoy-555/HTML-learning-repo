@@ -4,3 +4,33 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    font-size:50px;
+    color: rgb(188, 120, 243);
+    height: 200px;
+    background-image: url("../thumbs/zacchud___zacchud____Twitter-removebg-preview.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aquamarine;
+    background-blend-mode:exclusion
+}
+h3{
+    color: magenta;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lala{
+    margin: 80px;
+}
+a{
+    text-decoration: none;
+} 
+ul li{
+    color: brown;
+    display:inline;
+}
+span{
+    border: 1px solid;
+}
