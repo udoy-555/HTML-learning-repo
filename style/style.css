@@ -37,3 +37,6 @@ span{
 .list{
     text-align: center;
 }
+#mid{
+    margin: auto;
+}
