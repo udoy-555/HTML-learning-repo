@@ -1,15 +1,25 @@
-nav ul {
+nav>ul{
     display: flex;
 }
 nav li{
     list-style: none;
-    margin-right: 12px;
+    margin-right: 20px;
 }
 nav li:hover{
-    background-color: rgb(210, 255, 127);
-    padding: 0 50px;
+    background-color: hsla(226, 100%, 50%, 0.171);
+    padding: 0 3px;
 }
 nav li a{
     text-decoration: none;
     color: black;
+}
+/* Nested menu */
+nav li .drop-down{
+    display:none;
+    position: absolute;
+    background-color: lightgrey;
+
+}
+nav li:hover .drop-down{
+    display: block;
 }
