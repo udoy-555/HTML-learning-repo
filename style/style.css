@@ -40,3 +40,18 @@ label{
     display: block;
     margin-bottom: 10px;
 }
+#reset{
+    margin-top: 10px;
+}
+#submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgb(0, 121, 84);
+    text-align: center;
+    padding: 5px 15px;
+}
