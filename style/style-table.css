@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgb(0, 121, 84);
+    text-align: center;
+    padding: 5px 15px;
+}
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav li:hover{
+    background-color: hsla(226, 100%, 50%, 0.171);
+    padding: 0 2px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}nav li:hover{
+    background-color: hsla(226, 100%, 50%, 0.171);
+    padding: 0 2px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* nested menu */
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+}
+nav li:hover .dropdown{
+    display: block;
+}
